@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="FormFiles">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="WorkWithCamera">
+      <UniqueIdentifier>{25bb456e-9141-44d1-963e-b37591ac4c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkWithCamera\SourceFiles">
+      <UniqueIdentifier>{3bb7a579-45e2-4f16-a2e3-31e8f63f9b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorkWithCamera\HeaderFiles">
+      <UniqueIdentifier>{bd547430-b548-4e1d-b4ae-fc25e8806654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Display">
+      <UniqueIdentifier>{ae99798e-6bd7-48a7-9864-7a6ebe821cc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="inputMenu.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtMoc Include="inputMenu.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="inputMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtMainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkWithCamera\QtConnect.cpp">
+      <Filter>WorkWithCamera\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="VmbFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkWithCamera\FrameObserver.cpp">
+      <Filter>WorkWithCamera\SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\myLabel.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\QtGuiDisplay.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mysquare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtGuiCameraSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ipFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="QtMainMenu.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="WorkWithCamera\QtConnect.h">
+      <Filter>WorkWithCamera\HeaderFiles</Filter>
+    </QtMoc>
+    <QtMoc Include="Display\myLabel.h">
+      <Filter>Display</Filter>
+    </QtMoc>
+    <QtMoc Include="Display\QtGuiDisplay.h">
+      <Filter>Display</Filter>
+    </QtMoc>
+    <QtMoc Include="widget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mysquare.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtGuiCameraSetup.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="FormFiles\inputMenu.ui">
+      <Filter>FormFiles</Filter>
+    </QtUic>
+    <QtUic Include="FormFiles\QtMainMenu.ui">
+      <Filter>FormFiles</Filter>
+    </QtUic>
+    <QtUic Include="FormFiles\QtConnect.ui">
+      <Filter>FormFiles</Filter>
+    </QtUic>
+    <QtUic Include="FormFiles\QtGuiDisplay.ui">
+      <Filter>FormFiles</Filter>
+    </QtUic>
+    <QtUic Include="FormFiles\widget.ui">
+      <Filter>FormFiles</Filter>
+    </QtUic>
+    <QtUic Include="QtGuiCameraSetup.ui">
+      <Filter>FormFiles</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VmbFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkWithCamera\FrameObserver.h">
+      <Filter>WorkWithCamera\HeaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ipFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
