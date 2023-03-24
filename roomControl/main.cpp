@@ -3,6 +3,7 @@
 
 int main(int argc, char *argv[])
 {
+    //jfjfdfdj
     QApplication a(argc, argv);
     inputMenu w;
     w.show();
